@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find seekthermal_ros)/launch/seekthermal_ros.launch" />
+    <node name="thermal_ui" pkg="thermal_ui" type="thermal_ui" output="screen" />
+</launch>
+  
